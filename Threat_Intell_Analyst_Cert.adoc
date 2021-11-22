@@ -1,0 +1,241 @@
+[cols="1,1"]
+[stripes=even,cols="1,2"]
+|===
+|[black white-background]*Lab Setup*
+|[green]#Completed#
+|Create a template for a professional document			
+|[green]#Completed#
+|Lab Setup: Threat Hunting with Pandas  			
+|[green]#Completed#
+|Lab Setup: Malware Dataset  			
+|[green]#Completed#
+|Lab Setup: Reverse Engineering 			
+|[green]#Completed#
+|[black white-background]*Binary Classification* 
+|[black white-background]*Not Completed*
+|Use PE Studio to analyse 5 files on your computer 			
+|[green]#Completed#
+|Use ssdeep to identify identical files that have different MD5 hashes			
+|[green]#Completed#
+|Investigate multiple malware samples using PE-Bear		
+|[green]#Lab in Development#
+
+|Decompose malware file using Resource Hacker			
+|[green]#Completed#
+|Use pe-parse to parse PE files in Python			
+|[green]#Completed#
+|[black white-background]*YARA Fundamentals* 
+|[black white-background]*COMPLETED*
+|Write a YARA rule that is professionally documented
+|[green]#Completed#
+|Write a YARA rule that identifies Microsoft Office documents			
+|[green]#Completed#
+|Write a YARA rule that identifies binaries compiled in the last 24 hours			
+|[green]#Completed#
+|Use YARA's print module data feature to retrieve PE and ELF structures 			
+|[green]#Completed#
+|Write a YARA rule that finds executables written in Golang			
+|[green]#Completed#
+|Write a YARA rule that detects suspicious Windows APIs			
+|[green]#Completed#
+|Write a YARA rule that identifies executables of high-entropy			
+|[green]#Completed#
+|Use YARA to find files protected by the most famous software packers			
+|[green]#Completed#
+|Write YARA signatures to classify malware samples based on their PE formats 			
+|[green]#Completed#
+|Write a YARA rule to detect executables that pretend to be packed by UPX			
+|[green]#Completed#
+
+|[black white-background]*Pandas Fundamentals* 
+|[black white-background]*Not Completed*
+|Load a Parquet dataset into a Panda Dataframe 			
+|[green]#Completed#
+|Export a Panda Dataframe to CSV 			
+|[green]#Completed#
+|Import a Panda Dataframe and drop a column 			
+|[green]#Completed#
+|Write a function that searches all the columns of a Panda Dataframe			
+|[green]#Completed#
+|Write a function that joins two Panda Dataframes		
+|[green]#Completed#
+|Write a function that counts how many times an item is found in a Panda Dataframe			
+|[green]#Completed#
+|Use Pandas to baseline Windows processes running across a fleet of computers			
+|[green]#Completed#
+|Use Pandas to baseline DLLs loaded across a fleet of computers			
+|Not Completed
+|Use Pandas to baseline command lines across a fleet of computers			
+|Not Completed
+|Use Pandas to baseline DNS entries from a fleet of computers			
+|Lab in Development#
+|[black white-background]*Memory Forensics Fundamentals* 
+|[black white-background]*Not Completed*
+|Dump the RAM of a Windows machine 			
+|Not Completed
+|Retrieve processes and DLL information from a Windows memory dump			
+|Not Completed
+|Retrieve application data stored in memory from a Windows memory dump			
+|Not Completed
+|Retrieve networking data stored in memory from a Windows memory dump			
+|Not Completed
+|Run a YARA rule on a memory dump using the Volatility Framework			
+|Not Completed
+
+|[black white-background]*Malware Analysis Fundamentals* 
+|[black white-background]*Not Completed*
+|Use Sysmon for rapid malware analysis			
+|Not Completed
+|Automatically analyse malware dynamically using Cuckoo
+|Not Completed
+|Detonate malware samples in the Cuckoo Sandbox and then hunt for extracted IOCs			
+|Not Completed
+|Analyse malware from a memory dump using the Volatility Framework 			
+|Not Completed
+|Dynamically analyse malware network connections using FakeNet-NG			
+|Not Completed
+|[black white-background]*Situational Awareness* 
+|[black white-background]*Not Completed*
+|Use sublist3r.py to perform subdomain enumeration 			
+|Not Completed
+|Detect typo squatting and phishing with dnstwist.py 			
+|Not Completed
+|Use dnsdumpster.com to passively map an organisation's external facing assets 			
+|Not Completed
+|Use shodan.io to passively map an organisation's external facing assets  			
+|Not Completed
+|Use crt.sh to identify domains and sub-domains that belong to an organisation 			
+|Not Completed
+|Search for information leaks on Github using grep.app			
+|Not Completed
+|Use TheHarvester.py to gather information about targets 			
+|Not Completed
+|Use Censys to passively map an organisation's external facing assets 			
+|Not Completed
+|Use ZoomEye to passively map an organisation's external facing assets 			
+|Not Completed
+|Perform Github reconnaissance on an organisation using Commit Stream			
+|Not Completed
+|Use urlscan.io to perform reconnaissance on an organisation			
+|Not Completed
+|[black white-background]*Enterprise Investigations*
+|[black white-background]*Not Completed*
+|Build a capability to deploy Redline and retrieve results from a remote machine scan			
+|Not Completed
+|Build a Python script to convert a Redline output to Parquet			
+|Not Completed
+|Write a Windows Scheduled Tasks to run your YARA rules once a day across the fleet			
+|Not Completed
+|Install and deploy Google Rapid Response (GRR) across a fleet of computers			
+|Not Completed
+|Use GRR to retrieve memory forensics artefacts at scale			
+|Not Completed
+|Build a multithreaded Python tool to convert a Redline outputs to Parquet at scale			
+|Not Completed
+|Build a multithreaded Python tool to capture every executable on a machine			
+|Not Completed
+|Convert GRR artifacts to Parquet files and analyse them with Pandas			
+|Not Completed
+|[black white-background]*Pivot Analysis*
+|[black white-background]*Not Completed*
+|Manually perform Pivot Analysis with Censys			
+|Not Completed
+|Manually perform Pivot Analysis with Github			
+|Not Completed
+|Calculate the SHA1 of a malicious SSL certificate			
+|Not Completed
+|Calculate the JA3 hash from a malware PCAP			
+|Not Completed
+|Use online search engines to identify for indicators related to a malware sample			
+|Not Completed
+|Use the Github APIs to extract the list of followers for a given user			
+|Not Completed
+|Use the Github APIs to extract the list of users that a user follows			
+|Not Completed
+|Use the Github APIs to extract the list of repositories that belong to given users			
+|Not Completed
+|Manually perform Pivot Analysis with Shodan 			
+|Not Completed
+|Write a Python tool to automate Pivot Analysis with Shodan			
+|Not Completed
+|Write a Python tool to automate Pivot Analysis with Censys			
+|Not Completed
+|Write a Python tool to automate Pivot Analysis with Passive Total			
+|Not Completed
+|Write a tool to automatically scan indicators of compromise with online threat intelligence databases			
+|Not Completed
+|Perform Pivot Analysis on indicators of compromise discovered in malware			
+|Not Completed
+|[black white-background]*Open-Source Intelligence* 
+|[black white-background]*Not Completed*
+|Use urlscan.io to identify phishing and spear-phishing websites			
+|Not Completed
+|Create Google searches to find open Cuckoo Sandboxes 			
+|Not Completed
+|Identify malware authors using grep.app			
+|Not Completed
+|Track malware authors using Commit Stream			
+|Not Completed
+|Find an open cuckoo malware sandbox online and extract MD5 hashes from any malware samples found			
+|Not Completed
+|Catch possible phishing domains using Phishing Catcher			
+|Not Completed
+|Write a Python script to scrape online content for indicators of compromise			
+|Not Completed
+|Write a Python tool to monitor Certificate Transparency Logs			
+|Not Completed
+|Write a tool to search for malware repositories on Github using the APIs			
+|Not Completed
+|Write a tool to extracts indicators of compromise from source code repositories			
+|Not Completed
+|Write a tool to perform link-analysis on Github users			
+|Not Completed
+|[black white-background]*Offensive Countermeasures and Hacking Back*
+|[black white-background]*Not Completed*
+|Conduct a safe port scan of a host 			
+|Not Completed
+|Conduct a safe nslookup of a domain 			
+|Not Completed
+|Conduct a safe HTTP request against a mockup attacker infrastructure 			
+|Not Completed
+|Safely conduct banner grab of ports on a host 			
+|Not Completed
+|Extract SSL Certificate From C2 Host			
+|Not Completed
+|Perform a code review of the control panel of a credit card stealer 			
+|Not Completed
+|Perform a code review of the control panel of the Zeus banking trojan 			
+|Not Completed
+|Perform a code review of the control panel of the RockLoader ransomware 			
+|Not Completed
+|Build a secure operating environment for offensive threat intelligence			
+|Not Completed
+|Build and deploy a honeypot system that mimics a live environment and collects activity logs			
+|Not Completed
+|[black white-background]*Cyber Attribution: Code and Campaigns*
+|[black white-background]*Not Completed*
+|Rapidly classify APT malware with PE studio 			
+|Not Completed
+|Write YARA signatures for multiple components that make a malware sample			
+|Not Completed
+|Build a database of threat actors that is aligned with the Cyber Attribution Model (CAM)			
+|Not Completed
+|Map cyber breaches conducted by nation-state groups to their countries' military doctrine			
+|Not Completed
+|Write a tool to identify code reuse between malware samples			
+|Not Completed
+|[black white-background]*Reporting, Dissemination and Integration*
+|[black white-background]*Not Completed*
+|Automate pushing observables, indicators and entities to YETI			
+|Not Completed
+|Build a custom indicators of compromise database for private threat-intelligence services			
+|Not Completed
+|[black white-background]*Capability Development*
+|[black white-background]*Not Completed*
+|Use Python to calculate the imphash of PE files at scale			
+|Not Completed
+|Use Python to automatically extract the Rich Header from PE files at scale			
+|Not Completed
+|Use Python to automatically extract digital signatures from PE files at scale
+|Not Completed
+|===
