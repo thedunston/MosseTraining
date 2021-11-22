@@ -1,0 +1,232 @@
+[cols="1,1"]
+|===
+| Lab |Status 
+
+|Create a template for a professional document
+|Completed
+
+|Lab Setup: Screen Recording
+|Completed
+
+|Lab Setup: Deploy a Virtual Machine in Virtualbox
+|Completed
+|Lab Setup: Threat Hunting with Pandas
+|Not Completed
+|Lab Setup: Threat Hunting with YARA
+|Not Completed
+|Lab Setup: Malware Dataset
+|Not Completed
+|Lab Setup: Reverse Engineering
+|Not Completed
+|Fundamental Skills
+|Not Completed
+|Remotely access a Windows machine using PSEXEC and PowerShell
+|Not Completed
+|Use the strings utility to extract the strings in a file
+|Not Completed
+|Windows Internals Fundamentals
+|Not Completed
+|Use PE Studio to analyse 5 files on your computer
+|Not Completed
+|Use sigcheck to validate whether Windows binaries are properly signed
+|Not Completed
+|Use pe-parse to parse PE files in Python
+|Not Completed
+|Pandas Fundamentals
+|Not Completed
+|Load a Parquet dataset into a Panda Dataframe
+|Not Completed
+|Export a Panda Dataframe to CSV
+|Not Completed
+|Import a Panda Dataframe and drop a column
+|Not Completed
+|Write a function that searches all the columns of a Panda Dataframe
+|Not Completed
+|Write a function that joins two Panda Dataframes
+|Not Completed
+|Write a function that groups two Panda Dataframe columns
+|Not Completed
+|Write a function that counts how many times an item is found in a Panda Dataframe
+|Not Completed
+|Threat Hunting with YARA
+|Not Completed
+|Write a YARA rule that can find itself
+|Not Completed
+|Write a YARA rule that can find binaries that have more than 3 URLs
+|Not Completed
+|Write a YARA rule that is professionally documented
+|Not Completed
+|Write a YARA rule that finds executables with more than 5 sections
+|Not Completed
+|Write a YARA rule that identifies Microsoft Office documents
+|Not Completed
+|Write a YARA rule that identifies Chinese executables
+|Not Completed
+|Write a YARA rule that can find small portable executables
+|Not Completed
+|Write a YARA rule that searches for strings in given order
+|Not Completed
+|Write a YARA rule that can find improperly signed executables
+|Not Completed
+|Write a YARA rule that searches for strings using hex and wild-cards
+|Not Completed
+|Write a YARA rule that identifies DLLs
+|Not Completed
+|Write a YARA rule that identifies binaries compiled in the last 24 hours
+|Not Completed
+|Write a YARA rule that finds executables written in Golang
+|Not Completed
+|Write a YARA rule that detects suspicious Windows APIs
+|Not Completed
+|Write a YARA rule that identifies executables of high-entropy
+|Not Completed
+|Use YARA to find files protected by the most famous software packers
+|Not Completed
+|Write a YARA rule that identifies suspicious compilation timestamps
+|Not Completed
+|Write a YARA rule that finds executables that perform host reconnaissance
+|Not Completed
+|Write a YARA rule to detect executables that pretend to be packed by UPX
+|Not Completed
+|Write a collection of 100 generic YARA rules for Threat Hunting
+|Not Completed
+|Module Resources
+|Not Completed
+|Threat Hunting with Pandas
+|Not Completed
+|Write a query to search for Accessibility Feature backdoors
+|Not Completed
+|Write a query to search for PowerShell execution
+|Not Completed
+|Write a query to search for processes running JavaScript or VBScript
+|Not Completed
+|Write a query to search for signs of privilege escalation via Windows Services
+|Not Completed
+|Write a query to search for signs of credentials collection in the registry
+|Not Completed
+|Write a query to search for suspicious elevated processes
+|Not Completed
+|Write a query to search for signs of path interception
+|Not Completed
+|Write a query to search for known UAC bypasses
+|Not Completed
+|Write a query to search for malicious Winlogon Helper DLLs
+|Not Completed
+|Write a query to search for signs of Credentials Dumping
+|Not Completed
+|Write a query to search for signs of Lateral Movement
+|Not Completed
+|Use Stack Counting for Threat Hunting
+|Not Completed
+|Write a query to search for signs of process injection
+|Not Completed
+|Use Scatter Plots for Threat Hunting
+|Not Completed
+|Use Box Plots for Threat Hunting
+|Not Completed
+|Procedurally generate combinations of hunts using your Threat Hunting Scoring Engine
+|Not Completed
+|Digital Forensics and Incident Response
+|Not Completed
+|Build a capability to deploy Redline and retrieve results from a remote machine scan
+|Not Completed
+|Copy Windows event logs of a remote machine for offline analysis
+|Not Completed
+|Extract malware from a PDF document using Origami
+|Not Completed
+|Extract malware from a Word document using olevba
+|Not Completed
+|Remotely retrieve PowerShell Execution logs for all users
+|Not Completed
+|Investigate an unauthorised TCP port scan
+|Not Completed
+|Investigate an unauthorised SSH tunnel
+|Not Completed
+|Investigate obfuscated PowerShell commands
+|Not Completed
+|Investigate a privilege escalation attack that used AlwaysInstallElevated
+|Not Completed
+|Investigate a Meterpreter backdoor installed as a Windows Service
+|Not Completed
+|Investigate password dumping with Procdump
+|Not Completed
+|Memory Forensics
+|Not Completed
+|Dump the RAM of a Windows machine
+|Not Completed
+|Retrieve processes and DLL information from a Windows memory dump
+|Not Completed
+|Retrieve application data stored in memory from a Windows memory dump
+|Not Completed
+|Retrieve networking data stored in memory from a Windows memory dump
+|Not Completed
+|Run a YARA rule on a memory dump using the Volatility Framework
+|Not Completed
+|Module Resources
+|Not Completed
+|Malware Analysis
+|Not Completed
+|Unpack UPX protected files
+|Not Completed
+|Use ssdeep to identify identical files that have different MD5 hashes
+|Not Completed
+|Calculate the IMPHASH of a Windows portable executable
+|Not Completed
+|Compare two versions of the same binaries and identify what code was updated
+|Not Completed
+|Automatically analyse malware dynamically using Cuckoo
+|Not Completed
+|Analyse the suspicious FACredProv application
+|Not Completed
+|Detonate malware samples in the Cuckoo Sandbox and then hunt for extracted IOCs
+|Not Completed
+|Capability Development
+|Not Completed
+|Use yara-python to compile YARA rules
+|Not Completed
+|Build a Python script to convert a Redline output to Parquet
+|Not Completed
+|Build a Python script to convert a Windows Events Logs to Parquet
+|Not Completed
+|Build a Python script to convert a Apache HTTP logs to Parquet
+|Not Completed
+|Build a Python script to convert Autoruns logs to Parquet
+|Not Completed
+|Write a Windows Scheduled Tasks to run your YARA rules once a day across the fleet
+|Not Completed
+|Write a script that runs autorunsc.exe on all machines on the network and collects the results
+|Not Completed
+|Build a multithreaded Python tool to convert a Redline outputs to Parquet at scale
+|Not Completed
+|Build a multithreaded Python tool to capture every executable on a machine
+|Not Completed
+|Use yara-python to scan files inside ZIP files using YARA
+|Not Completed
+|Write a Threat Hunting library in Python
+|Not Completed
+|Write a Threat Hunting Scoring Engine in Python
+|Not Completed
+|Write a professional Binary Threat Hunting tool based of YARA rules
+|Not Completed
+|Threat Hunting Simulations
+|Not Completed
+|Perform Threat Hunting against 2 machines
+|Not Completed
+|Perform Threat Hunting against 5 machines
+|Not Completed
+|Perform Threat Hunting against 10 machines
+|Not Completed
+|Perform Threat Hunting against 20 machines
+|Not Completed
+|Perform Threat Hunting against 40 machines
+|Not Completed
+|Perform Threat Hunting against 100 machines
+|Not Completed
+|Perform Threat Hunting against 300 machines
+|Not Completed
+|Perform Threat Hunting against 500 machines
+|Not Completed
+|Perform Threat Hunting against 1000 machines
+|Not Completed
+|Perform Threat Hunting against 2000 machines
+|===
