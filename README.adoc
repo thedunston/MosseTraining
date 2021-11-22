@@ -2,6 +2,8 @@
 
 Progress on my Mossé Training.  Each course costs $450 with instructor review & feedback on each assignment. You record each lab to show it is working as expected and upload Unlisted to Youtube.  Some labs require code submission, as well.  Python skills are required for each course.  As you progress,through each lab you have a porfolio to show to potential employers.
 
+*NOTE: Some labs overlap between courses and the credit is applied to each course.*
+
 [cols="1,1"]
 [stripes=even,cols="1,2"]
 |===
