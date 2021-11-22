@@ -1,0 +1,15 @@
+# Mossé Training
+
+Progress on my Mossé Training.  Each course costs $450 with instructor review & feedback on each assignment. You record each lab to show it is working as expected and upload Unlisted to Youtube.  Some labs require code submission, as well.  Python skills are required for each course.  As you progress,through each lab you have a porfolio to show to potential employers.
+
+[cols="1,1"]
+[stripes=even,cols="1,2"]
+|===
+|My Progress
+|Mossé website
+|https://github.com/thedunston/MosseTraining/blob/main/Threat_Hunting_Cert.adoc[Threat Hunter Progress]
+|https://www.mosse-institute.com/certifications/mth-certified-threat-hunter.html[Certified Threat Hunter website]
+
+|https://github.com/thedunston/MosseTraining/blob/main/Threat_Intell_Analyst_Cert.adoc[Threat Intelligence Analyst Progress]
+|https://www.mosse-institute.com/certifications/mtia-certified-threat-intelligence-analyst.html[Certified Threat Intelligence Analyst website]
+|===
