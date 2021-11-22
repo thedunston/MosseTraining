@@ -1,65 +1,91 @@
 [cols="1,1"]
+[stripes=even,cols="1,2"]
 |===
-| Lab |Status 
+|[black white-background]*Lab Setup* 
+|[black white-background]*COMPLETED*
 
 |Create a template for a professional document
-|Completed
+|[green]#Completed#
 
 |Lab Setup: Screen Recording
-|Completed
+|[green]#Completed#
 
 |Lab Setup: Deploy a Virtual Machine in Virtualbox
-|Completed
+|[green]#Completed#
+
 |Lab Setup: Threat Hunting with Pandas
-|Not Completed
+|[green]#Completed#
+
 |Lab Setup: Threat Hunting with YARA
-|Not Completed
+|[green]#Completed#
+
 |Lab Setup: Malware Dataset
-|Not Completed
+|[green]#Completed#
+
 |Lab Setup: Reverse Engineering
-|Not Completed
-|Fundamental Skills
-|Not Completed
+|[green]#Completed#
+
+|[black white-background]*Fundamental Skills*
+|[black white-background]*COMPLETED*
+
 |Remotely access a Windows machine using PSEXEC and PowerShell
-|Not Completed
+|[green]#Completed#
+
 |Use the strings utility to extract the strings in a file
-|Not Completed
+|[green]#Completed#
+
 |Windows Internals Fundamentals
-|Not Completed
+|[black white-background]*COMPLETED*
+
 |Use PE Studio to analyse 5 files on your computer
-|Not Completed
+|[green]#Completed#
+
 |Use sigcheck to validate whether Windows binaries are properly signed
-|Not Completed
+|[green]#Completed#
+
 |Use pe-parse to parse PE files in Python
-|Not Completed
-|Pandas Fundamentals
-|Not Completed
+|[green]#Completed#
+
+|[black white-background]*Pandas Fundamentals*
+|[black white-background]*COMPLETED*
+
 |Load a Parquet dataset into a Panda Dataframe
-|Not Completed
+|[green]#Completed#
+
 |Export a Panda Dataframe to CSV
-|Not Completed
+|[green]#Completed#
+
 |Import a Panda Dataframe and drop a column
-|Not Completed
+|[green]#Completed#
+
 |Write a function that searches all the columns of a Panda Dataframe
-|Not Completed
+|[green]#Completed#
+
 |Write a function that joins two Panda Dataframes
-|Not Completed
+|[green]#Completed#
+
 |Write a function that groups two Panda Dataframe columns
-|Not Completed
+|[green]#Completed#
+
 |Write a function that counts how many times an item is found in a Panda Dataframe
-|Not Completed
-|Threat Hunting with YARA
-|Not Completed
+|[green]#Completed#
+
+|[black white-background]*Threat Hunting with YARA*
+|[black white-background]*Not Completed*
+
 |Write a YARA rule that can find itself
 |Not Completed
+
 |Write a YARA rule that can find binaries that have more than 3 URLs
 |Not Completed
+
 |Write a YARA rule that is professionally documented
-|Not Completed
+|[green]#Completed#
+
 |Write a YARA rule that finds executables with more than 5 sections
 |Not Completed
 |Write a YARA rule that identifies Microsoft Office documents
-|Not Completed
+|[green]#Completed#
 |Write a YARA rule that identifies Chinese executables
 |Not Completed
 |Write a YARA rule that can find small portable executables
@@ -73,27 +99,25 @@
 |Write a YARA rule that identifies DLLs
 |Not Completed
 |Write a YARA rule that identifies binaries compiled in the last 24 hours
-|Not Completed
+|[green]#Completed#
 |Write a YARA rule that finds executables written in Golang
-|Not Completed
+|[green]#Completed#
 |Write a YARA rule that detects suspicious Windows APIs
-|Not Completed
+|[green]#Completed#
 |Write a YARA rule that identifies executables of high-entropy
-|Not Completed
+|[green]#Completed#
 |Use YARA to find files protected by the most famous software packers
-|Not Completed
+|[green]#Completed#
 |Write a YARA rule that identifies suspicious compilation timestamps
 |Not Completed
 |Write a YARA rule that finds executables that perform host reconnaissance
 |Not Completed
 |Write a YARA rule to detect executables that pretend to be packed by UPX
-|Not Completed
+|[green]#Completed#
 |Write a collection of 100 generic YARA rules for Threat Hunting
 |Not Completed
-|Module Resources
-|Not Completed
-|Threat Hunting with Pandas
-|Not Completed
+|[black white-background]*Threat Hunting with Pandas*
+|[black white-background]*Not Completed*
 |Write a query to search for Accessibility Feature backdoors
 |Not Completed
 |Write a query to search for PowerShell execution
@@ -126,8 +150,7 @@
 |Not Completed
 |Procedurally generate combinations of hunts using your Threat Hunting Scoring Engine
 |Not Completed
-|Digital Forensics and Incident Response
-|Not Completed
+|[black white-background]*Digital Forensics and Incident* |[black white-background]*Not Complete*
 |Build a capability to deploy Redline and retrieve results from a remote machine scan
 |Not Completed
 |Copy Windows event logs of a remote machine for offline analysis
@@ -150,8 +173,8 @@
 |Not Completed
 |Investigate password dumping with Procdump
 |Not Completed
-|Memory Forensics
-|Not Completed
+|[black white-background]*Memory Forensics*
+|[black white-background]*Not Completed*
 |Dump the RAM of a Windows machine
 |Not Completed
 |Retrieve processes and DLL information from a Windows memory dump
@@ -162,14 +185,12 @@
 |Not Completed
 |Run a YARA rule on a memory dump using the Volatility Framework
 |Not Completed
-|Module Resources
-|Not Completed
-|Malware Analysis
-|Not Completed
+|[black white-background]*Malware Analysis*
+|[black white-background]*Not Completed*
 |Unpack UPX protected files
 |Not Completed
 |Use ssdeep to identify identical files that have different MD5 hashes
-|Not Completed
+|[green]#Completed#
 |Calculate the IMPHASH of a Windows portable executable
 |Not Completed
 |Compare two versions of the same binaries and identify what code was updated
@@ -180,8 +201,8 @@
 |Not Completed
 |Detonate malware samples in the Cuckoo Sandbox and then hunt for extracted IOCs
 |Not Completed
-|Capability Development
-|Not Completed
+|[black white-background]*Capability Development*
+|[black white-background]*Not Completed*
 |Use yara-python to compile YARA rules
 |Not Completed
 |Build a Python script to convert a Redline output to Parquet
@@ -208,8 +229,8 @@
 |Not Completed
 |Write a professional Binary Threat Hunting tool based of YARA rules
 |Not Completed
-|Threat Hunting Simulations
-|Not Completed
+|[black white-background]*Threat Hunting Simulations*
+|[black white-background]*Not Completed*
 |Perform Threat Hunting against 2 machines
 |Not Completed
 |Perform Threat Hunting against 5 machines
